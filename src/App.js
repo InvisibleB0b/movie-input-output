@@ -61,11 +61,14 @@ class App extends Component {
             </div>
 
             <div className="col-6">
-              <MoviePoster movie={this.state.selectedMovie} />
+              <div className="col-12">
+                <MoviePoster movie={this.state.selectedMovie} />
+              </div>
+              <div className=" col-12">
+                <MoviePlot movie={this.state.selectedMovie} />
+              </div>
             </div>
-            <div className=" col-12">
-              <MoviePlot movie={this.state.selectedMovie} />
-            </div>
+
           </div>
         </div>
 

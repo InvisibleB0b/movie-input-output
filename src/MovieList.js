@@ -68,7 +68,6 @@ class MovieList extends Component {
 
     }
 
-    console.log(pageing);
 
     return (
 
