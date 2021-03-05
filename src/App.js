@@ -29,7 +29,7 @@ class App extends Component {
     });
 
 
-    this.setState({ movies: formattetMovieList, searchTerms: { query: searchQuery, currentPage: pagenr, totalPages: response.data.total_pages } });
+    this.setState({ movies: formattetMovieList, searchTerms: { query: searchQuery, currentPage: pagenr, totalPages: response.data.total_pages }, selectedMovie: null });
 
   }
 
